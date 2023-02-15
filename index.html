@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6ed6eb2b60.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <div class="container mt-3 text-center">
+        <h1>Money Master <i class="fa-solid fa-piggy-bank"></i></h1>
+    </div>
+
+
+
+
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-6 col-sm-4 m-auto"><img class="w-100" src="/image/Pexels Photo by Karolina Grabowska.png"
+                    alt="" srcset=""></div>
+            <div class="col-6 col-sm-4 m-auto">
+                <h5>Income</h5>
+                <label for="income">Income:</label>
+                <input type="text" id="income" name="income" placeholder="10000"><br><br>
+                <h5>Expenses</h5>
+                <label for="Expenses">Food:</label>
+                <input type="text" id="food-cost" name="food-cost" placeholder="3000"><br><br>
+                <label for="Expenses">Rent:</label>
+                <input type="text" id="rent-cost" name="rent-cost" placeholder="2000"><br><br>
+                <label for="Expenses">Cloths:</label>
+                <input type="text" id="cloths-cost" name="cloths-cost" placeholder="500"><br><br>
+                <button class="bg-primary rounded">Calculate</button><br><br>
+                <div>
+                    <h5>Totaal Expenses : <span>5500</span></h5>
+                    <h5>Balance : <span>4500</span></h5><br><br>
+                </div>
+
+                <div> <label for="Expenses">Save:</label>
+                    <input type="text" id="Expenses" name="Expenses" placeholder="20"><span>%</span>
+                    <button class="bg-primary rounded">Save</button>
+                    <br><br>
+                </div>
+
+                <div>
+                    <h5>Saving Amount : <span>2000</span></h5>
+                    <h5> Remaining Balance : <span>4500</span></h5>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="/js/index.js"></script>
+
+</body>
+
+</html>
